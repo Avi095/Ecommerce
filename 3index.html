@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--font awesome cdn file link-->
+     <link rel="stylesheet" href="3style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+      <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+
+<header>
+
+    <div class="overlay" data-overlay></div>
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="img/elogo2.png" alt="Shop now" width="100%" height="50">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+
+          <button class="search-btn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <a href="login/user.html"><i class="fa-solid fa-user"></i></a>
+          </button>
+
+          <button class="action-btn">
+            <i class="fa-regular fa-heart"></i>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Desktop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Laptop</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Camera</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Tablet</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Headphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="img/electronics-banner-1.jpg" alt="headphone collection" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Men's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sports</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Jacket</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Sunglasses</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="img/mens-banner.jpg" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Women's</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Formal</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Casual</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Perfume</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Cosmetics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Bags</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="img/womens-banner.jpg" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Electronics</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Smart Watch</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Smart TV</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Keyboard</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mouse</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Microphone</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="img/electronics-banner-2.jpg" alt="mouse collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Men's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Shirt</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Shorts & Jeans</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Safety Shoes</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Wallet</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Women's</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Dress & Frock</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Makeup Kit</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Jewelry</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Earrings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Couple Rings</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Necklace</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Bracelets</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Perfume</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="#">Clothes Perfume</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Deodorant</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Flower Fragrance</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Air Freshener</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Blog</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Hot Offers</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <button class="action-btn">
+        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <i class="fa-solid fa-house"></i>
+      </button>
+
+      <button class="action-btn">
+        <i class="fa-solid fa-heart"></i>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <i class="fa fa-th" aria-hidden="true"></i>
+
+
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Men's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shirt</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Shorts & Jeans</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Safety Shoes</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Wallet</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Women's</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Dress & Frock</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Makeup Kit</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Jewelry</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Earrings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Couple Rings</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Necklace</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Bracelets</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">Perfume</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Clothes Perfume</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Deodorant</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Flower Fragrance</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Air Freshener</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Blog</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Hot Offers</a>
+        </li>
+
+      </ul>
+
+      
+    </nav>
+
+  </header>
+
+
+<section id="zero">
+  <div class="head-text">
+    <h4>Trade-in-offer</h4>
+    <h2>Super value deals</h2>
+    <h1>ON all products</h1>
+    <p>Save more with coupon & up to & 70% off</p>
+    <button>Shop Now</button>
+</div>
+</section>
+
+
+
+    <!--<section id="hero">
+        <div class="container">
+         <div class="wrapper">
+        <img src="img/head.jpg" >
+           <img src="img/head2.jpg">
+           <img src="img/head3.jpg">
+           <img src="img/head4.jpg">
+         </div>
+         <div class="head-text">
+           <h4>Trade-in-offer</h4>
+           <h2>Super value deals</h2>
+           <h1>ON all products</h1>
+           <p>Save more with coupon & up to & 70% off</p>
+           <button>Shop Now</button>
+     </div>
+        </div>
+         
+       </section>-->
+      
+    
+
+       <section id="feature" class="section-p1">
+        <div class="fe-box" >
+          <img src="img/f1.png" >
+          <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box" >
+          <img src="img/f2.png" >
+          <h6>Online Order</h6>
+        </div>
+        <div class="fe-box" >
+          <img src="img/f3.png" >
+          <h6>Save Money</h6>
+        </div>
+        <div class="fe-box" >
+          <img src="img/f4.png" >
+          <h6>Promotions</h6>
+        </div>
+        <div class="fe-box" >
+          <img src="img/f5.png" >
+          <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box" >
+          <img src="img/f6.png" >
+          <h6>Support </h6>
+        </div>
+        </section>
+
+        
+          
+
+
+          <section id="content">
+            <div class="row">
+              <img src="img/content1.jpg">
+              <div class="layer">
+                <h3> T-shirts</h3>
+                <p>View All</p>
+              </div>
+            </div>
+            <div class="row">
+              <img src="img/content2.jpg">
+              <div class="layer">
+                <h3>Mugs</h3>
+                <p>View All</p>
+              </div>
+            </div>
+            <div class="row">
+              <img src="img/content3.jpg">
+              <div class="layer">
+                <h3>Hats</h3>
+                <p>View All</p>
+              </div>
+            </div>
+            <div class="row">
+              <img src="img/content4.jpg">
+              <div class="layer">
+                <h3>Hoodies </h3>
+                <p>View All</p>
+              </div>
+            </div>
+            <div class="row">
+              <img src="img/content5.jpg">
+              <div class="layer">
+                <h3>Badges</h3>
+                <p>View All</p>
+              </div>
+            </div>
+            <div class="row">
+              <img src="img/content6.jpg">
+              <div class="layer">
+                <h3>Phone Cases</h3>
+                <p>View All</p>
+              </div>
+            </div>
+          </section>
+
+    
+          <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>Summer Collection New Morden Desgin</p>
+            <div class="pro-container">
+              <div class="pro">
+                <img src="img/pf1.jpg">
+                <div class="des">
+                  <span>Adidas</span>
+                  <h5>Cartoon Asstronaut T-shirt</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$7</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping "></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/pf2.jpg">
+                <div class="des">
+                  <span>Adidas</span>
+                  <h5>Cartoon Asstronaut T-shirt</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$7</h4>
+                </div>
+                <a href="#"><i class="fa fa-cart-arrow-down " ></i>
+
+                </a>
+              </div>
+              <div class="pro">
+                <img src="img/pf3.jpg">
+                <div class="des">
+                  <span>Adidas</span>
+                  <h5>Cartoon Asstronaut T-shirt</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$7</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/pf4.jpg">
+                <div class="des">
+                  <span>Adidas</span>
+                  <h5>Cartoon Asstronaut T-shirt</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$7</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/pf5.jpg">
+                <div class="des">
+                  <span>Adidas</span>
+                  <h5>Cartoon Asstronaut T-shirt</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$7</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/pf6.jpg">
+                <div class="des">
+                  <span>Adidas</span>
+                  <h5>Cartoon Asstronaut T-shirt</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$7</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/shorts-1.jpg">
+                <div class="des">
+                  <span>Adidas</span>
+                  <h5>Cartoon Asstronaut T-shirt</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$7</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+              <div class="pro">
+                <img src="img/2.jpg">
+                <div class="des">
+                  <span>Adidas</span>
+                  <h5>Cartoon Asstronaut T-shirt</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>$7</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+            </section>
+            
+            <section id="banner" class="section-m1">
+              <h4>Repair Services</h4>
+              <h2>UP to<span>70% Off</span>All t-shirt & Accessories</h2>
+              <button class="normal">Explore More</button>
+              </section>
+
+
+              <section id="product1" class="section-p1">
+                <h2>New Arrivals</h2>
+                <p>Summer Collection New Morden Desgin</p>
+                <div class="pro-container">
+                  <div class="pro">
+                    <img src="img/n1.jpg">
+                    <div class="des">
+                      <span>Adidas</span>
+                      <h5>Cartoon Asstronaut T-shirt</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>$7</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                  <div class="pro">
+                    <img src="img/n2.jpg">
+                    <div class="des">
+                      <span>Adidas</span>
+                      <h5>Cartoon Asstronaut T-shirt</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>$7</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                  <div class="pro">
+                    <img src="img/n3.jpg">
+                    <div class="des">
+                      <span>Adidas</span>
+                      <h5>Cartoon Asstronaut T-shirt</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>$7</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                  <div class="pro">
+                    <img src="img/n4.jpg">
+                    <div class="des">
+                      <span>Adidas</span>
+                      <h5>Cartoon Asstronaut T-shirt</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>$7</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                  <div class="pro">
+                    <img src="img/n5.jpg">
+                    <div class="des">
+                      <span>Adidas</span>
+                      <h5>Cartoon Asstronaut T-shirt</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>$7</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                  <div class="pro">
+                    <img src="img/n6.jpg">
+                    <div class="des">
+                      <span>Adidas</span>
+                      <h5>Cartoon Asstronaut T-shirt</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>$7</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                  <div class="pro">
+                    <img src="img/n7.jpg">
+                    <div class="des">
+                      <span>Adidas</span>
+                      <h5>Cartoon Asstronaut T-shirt</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>$7</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                  <div class="pro">
+                    <img src="img/n8.jpg">
+                    <div class="des">
+                      <span>Adidas</span>
+                      <h5>Cartoon Asstronaut T-shirt</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>$7</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </div>
+                </div>
+                </section>
+
+<section id="newsletter" class="section-p1  section-m1">
+  <div class="newsletter">
+    <h4>Sign Up For Newsletter</h4>
+    <p>Get E-mail upadte about our latest Shop And <span>Special Offers.</span></p>
+  </div>
+  <div class="from">
+    <input type="text" placeholder="Your email Address ">
+    <button class="normal">Sign Up</button>
+  </div>
+</section>
+
+<footer class="section-p1">
+<div class="col">
+  <img src="img/elogo2.png" id="logo" alt="logo">
+  <h4>Contact</h4>
+  <p><strong>Address:</strong>  Govt. Polytechnic College, Rajoda Dewas</p>
+  <p><strong>Phone:</strong> +91 62321 25711</p>
+  <p><strong>Hours:</strong>  24/7hrs</p>
+  <div class="follow">
+  <h4> Follow Us</h4>
+  <div class="icon">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-pinterest-p"></i>
+    <i class="fab fa-youtube"></i>
+  </div>
+  </div>
+</div>
+
+<div class="col">
+  <h4>About</h4>
+  <a href="#">Delivery Information</a> 
+  <a href="#">Privacy policy</a> 
+  <a href="#">Terms & Condition</a> 
+  <a href="#">Contant Us</a> 
+</div>
+
+<div class="col">
+  <h4>my Account</h4>
+  <a href="#">Sign In</a> 
+  <a href="#">View Cart</a> 
+  <a href="#">My Wishlist</a> 
+  <a href="#">Track My Order</a>
+  <a href="#">Help</a> 
+</div>
+
+<div class="col install">
+  <h4>Install App</h4>
+  <p>From App Store Or Google Play</p>
+  <div class="row">
+    <img src="img/app.jpg">
+    <img src="img/play.jpg">
+  </div>
+  <p>Secured Payment Gateways</p>
+  <img src="img/pay.png">
+</div>
+
+<div class="copyright">
+  <p>@2023 Project  ~ Html  Css  Javascript //   E-commerce Website Template</p>
+</div>
+</footer>
+
+
+
+
+
+                
+  <script src="script.js"></script>
+    </body>
+    </html>
